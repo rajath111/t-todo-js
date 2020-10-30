@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rosybrown;
+}
+
+#container{ 
+    margin:auto;
+    background-color: white;
+    width:30%;
+    border: 10px solid  rgb(4, 64, 66);
+    border-radius: 10px;
+    min-height: 800px;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 4em;
+}
+
+#entry{
+    margin-left: 15%;
+    margin-bottom: 10px;
+    width: 70%;
+    color: black;
+    border: 5px solid cadetblue;
+    border-radius: 10px;
+    height: auto;
+    padding: 10px;
+    font-size: 1em;
+}
+#entry:focus {
+    box-shadow: 2px 2px 3px 2px cadetblue;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-left: 30%;
+    width: 40%;
+    color: white;
+    border: 3px solid cadetblue;
+    border-radius: 10px;
+    height: auto;
+    padding: 5px;
+    font-size: 1em;
+}
+ol{
+    margin: 6%;;
+}
+
+li{
+    list-style-position: inside;
+    background-color: rgb(240, 240, 240);
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+}
+
+input[type="checkbox"]{
+    margin-top: 10px;
+    color: white;
+    border: 3px solid cadetblue;
+    border-radius: 2px;
+}
