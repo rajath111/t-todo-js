@@ -20,8 +20,9 @@ let addTodo = function(){
 
         li.appendChild(checkbox);
         li.appendChild(label);
-        label.appendChild(text)
-        ol.insertBefore(li, ol.childNodes[0])
+        label.appendChild(text);
+        ol.insertBefore(li, ol.childNodes[0]);
+        console.log("list of lables",label);
     }
 }
 
